@@ -7,8 +7,12 @@
     <title>붕괴 체력 체크</title>
 </head>
 <body>
-    <form class="hidden" id="heath-input-form">
-        <input required type="number" placeholder="현재 체력을 입력하시오"/>
+    <form class="hidden" id="input-form">
+        <input required type="number" placeholder="현재 체력을 입력해주세요" />
+        <input type="submit" value="입력" />    
     </form>
-</body>
+    <h1 class="hidden" id="present-health"></h1>
+    <h1 class="hidden" id="fill-time"></h1>
+    <script src="js/healthgauge.js" async></script>
+</body> 
 </html>
